@@ -1,0 +1,352 @@
+/*SYSTEM_CORE = START [CSS]*/
+/*T0.1 = START [CSS GENERAL SETTINGS]*/
+
+* {
+    margin: 0;
+    padding: 1px 0;
+    box-sizing: border-box;
+}
+
+ body {
+   font-family: "Poppins", sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   min-height: 100vh;
+   background-color: #EDEDED;
+ }
+ 
+ a {
+    text-decoration: none;
+ }
+
+ ul {
+    list-style: none;
+ }
+
+ img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+ }
+
+/*T0.1 = END [CSS GENERAL SETTINGS]*/
+ /*T1.1 = START [CONTAINER GENERAL SETTINGS]*/
+
+ .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+/*T1.0 = END [CONTAINER GENERAL SETTINGS]*/
+ /*T2.1 = START [NAVIGATION MENU]*/
+
+.navegacao{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao .logo {
+    width:140px;
+ }
+
+ .navegacao .menu {
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+ }
+
+.menu a {
+    color: #0D323C;
+    font-weight: bold;
+    font-size:small;
+}
+
+/*T2.0 = END [NAVIGATION MENU]*/
+/*T3.1 = START [BANNER 1]*/
+
+.banner1 {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+ }
+
+  .textos1 h1 {
+    width: 420px;
+    font-size:xx-large;
+    color: #0D323C;
+    line-height: 1.0;
+ }
+
+ .textos1 p {
+    width: 420px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.2;
+ }
+
+.botao1 {
+    background: linear-gradient(to right, #ffff , #7E8C90);
+    border-radius: 100px;
+    height: 35px;
+    width: 400px;
+}
+
+.botao1 button {
+    border-radius: 100px;
+    height: 35px;
+    width: 140px;
+    background-color: #0D323C;
+    color: white;
+    border: none;
+}
+
+.casa1 img {
+    min-width: 300px;
+    width: 380px;
+    height: 460px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*T3.0 = END [BANNER 1]*/
+/*T4.1 = START [BANNER 2]*/
+
+.banner2 {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+ }
+
+.casa2 img {
+    min-width: 300px;
+    width: 380px;
+    height: 350px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+
+ .textos2 {
+    margin-right: -55px;
+ }
+
+  .textos2 h2 {
+    width: 420px;
+    font-size:xx-large;
+    color: #0D323C;
+    line-height: 1.0;
+ }
+
+ .textos2 p {
+    width: 420px;
+    font-size: 12px;
+    line-height: 1.2;
+ }
+
+ .botao2 button {
+    border-radius: 100px;
+    height: 35px;
+    width: 140px;
+    background-color: #0D323C;
+    color: white;
+    border: none;
+}
+
+/*T4.0 = END [BANNER 2]*/
+/*T5.1 = START [BANNER 3]*/
+
+
+.artigos {
+    width: 900px;
+    height: 65px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.artigos h2 {
+    font-size:40px;
+    color: #0D323C;
+    min-width: 838px;
+}
+
+.banner3 {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+ }
+
+.textos3 {
+    width: 600px;
+}
+
+.textos3 h2 {
+    width: 600px;
+    font-size:xx-large;
+    color: #0D323C;
+    line-height: 1.0;
+    font-size: 30px;
+ }
+
+.textos3 p {
+    width: 600px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.2;
+ }
+
+.obra img {
+    min-width: 200px;
+    width: 180px;
+    height: 160px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.casa3 img {
+    min-width: 200px;
+    width: 180px;
+    height: 160px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.textos4 {
+    width: 600px;
+}
+
+  .textos4 h2 {
+    width: 600px;
+    font-size:xx-large;
+    color: #0D323C;
+    line-height: 1.0;
+    font-size: 30px;
+ }
+
+.textos4 p {
+    width: 600px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.2;
+ }
+
+/*T5.0 = END [BANNER 3]*/
+/*T6.1 = START [BANNER 4]*/
+
+.banner4 {
+    width: 810px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(to right, #0D323C , #124552);
+    background-color: #0D323C;
+    color: white;
+}
+
+.textos5 {
+    margin-top: 80px;
+    width: 840px;
+}
+
+.textos5 h2 {
+    font-size: 25px;
+}
+
+.textos5 p {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.botao3 button {
+    margin-top: 15px;
+    border-radius: 100px;
+    height: 35px;
+    width: 140px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+/*T6.0 = END [BANNER 4]*/
+/*T7.1 = START [BANNER 5]*/
+
+.footer {
+    width: 815px;
+    height: 300px;
+    background: linear-gradient(to right, #0D323C , #124552);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo-footer {
+    width:120px;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+.logo-footer img {
+    width:116px;
+}
+
+.logo-footer p {
+    text-align: left;
+    font-size: 9px;
+    line-height: 1.2;
+}
+
+.footer-links {
+    display: flex;
+    text-align: left;
+    gap:20px;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.footer-links h3 {
+    font-size: 12px;
+    color: white;
+}
+
+.footer-links a {
+    font-size: 10px;
+    color: white;
+}
+
+.footer-direitos h6 {
+    width: 815px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-direitos hr{
+    border: none;
+    width: 720px;
+    background-color: black;
+    margin: 20px 0;
+    background-color:#EDEDED;
+    margin-left: 50px;
+    border-top: 1px solid black;
+}
+
+/*T7.0 = END [BANNER 5]*/
+/*SYSTEM_CORE = END [CSS]*/
